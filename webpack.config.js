@@ -17,7 +17,7 @@ module.exports={
     module:{rules},
     resolve:{extensions:['.ts','.tsx','.js']},
     devServer:{
-        static:'./',
+        static:'./public/index.html',
         port: 5000
     }
 }
